@@ -1,0 +1,77 @@
+nav {
+  text-align: center;
+}
+
+img {
+  width: 175px;
+  height: 225px;
+}
+
+h1 {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 18px Verdana;
+  color: red;
+  background: blue;
+}
+#picbox {
+  margin: 0px auto;
+  width: 1036px;
+}
+#boxcard {
+  z-index: 1;
+  margin: 10px 0 0;
+}
+#boxcard div{
+  float: left;
+  width: 170px;
+  height: 220px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid red;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,.5);
+  background: url("../img/back1 (1).jpg");
+  background-color: green;
+  z-index: 2;
+}
+#boxcard div img {
+  display: none;
+  border-radius: 10px;
+  z-index: 3;
+}
+#boxbuttons {
+  text-align: center;
+  margin: 20px;
+  display: block;
+}
+#boxbuttons .button {
+  text-transform: uppercase;
+  background: #EE872A;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#boxbuttons .button:hover {
+  background: #999;
+}
+
+#player1Score {
+  color: yellow;
+}
+
+#player2Score {
+  color: yellow;
+}
+
+button {
+  display: inline-block;
+}
